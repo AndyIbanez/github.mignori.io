@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Mignori</title>
-    <link>https://mignori.com/</link>
+    <link>https://www.mignori.com/</link>
     <description>Recent content in Home on Mignori</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 24 Aug 2019 22:13:51 -0400</lastBuildDate>
     
-	<atom:link href="https://mignori.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.mignori.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Welcome to the New Mignori Website</title>
-      <link>https://mignori.com/posts/welcome-to-the-new-mignori-website/</link>
+      <link>https://www.mignori.com/posts/welcome-to-the-new-mignori-website/</link>
       <pubDate>Sat, 24 Aug 2019 22:13:51 -0400</pubDate>
       
-      <guid>https://mignori.com/posts/welcome-to-the-new-mignori-website/</guid>
+      <guid>https://www.mignori.com/posts/welcome-to-the-new-mignori-website/</guid>
       <description>Welcome to the new Mignori website!
 We have been hard at work at working in our apps and our websites, and this website is one of those.
 We know you think this website looks worse than the other one. And aesthetically speaking, you may be right! But we chose to Migrate to this website for a few reasons:
@@ -25,10 +25,10 @@ We know you think this website looks worse than the other one. And aesthetically
     
     <item>
       <title>Features</title>
-      <link>https://mignori.com/features/</link>
+      <link>https://www.mignori.com/features/</link>
       <pubDate>Fri, 23 Aug 2019 23:12:02 -0400</pubDate>
       
-      <guid>https://mignori.com/features/</guid>
+      <guid>https://www.mignori.com/features/</guid>
       <description>Mignori is a Booru Image Board browser for iOS. It features many features from basic search all the way to app style customization.
  Search The most basic features you can expect from a Booru website. In Mignori, you can search using the familiar tag system you already know, and Mignori supports the tag systems for different Boorus. For most Boorus, multi-word tags are separated with an underscore (such as card_captor_sakura), but it can also search in systems were tags are separated with commas.</description>
     </item>
