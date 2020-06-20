@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Mignori</title>
@@ -6,7 +6,7 @@
     <description>Recent content in Home on Mignori</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Aug 2019 22:13:51 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 24 Aug 2019 18:11:52 -0400</lastBuildDate>
     
 	<atom:link href="https://www.mignori.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -49,8 +49,7 @@ There’s a few rules you must follow to join this program.</description>
       <pubDate>Fri, 23 Aug 2019 23:12:02 -0400</pubDate>
       
       <guid>https://www.mignori.com/features/</guid>
-      <description>Mignori is a Booru Image Board browser for iOS. It features many features from basic search all the way to app style customization.
-&amp;nbsp; Search The most basic feature you can expect from a Booru website. In Mignori, you can search using the familiar tag system you already know, and Mignori supports the tag systems for different Boorus. For most Boorus, multi-word tags are separated with an underscore (such as card_captor_sakura), but it can also search in systems were tags are separated with commas.</description>
+      <description>Mignori is a Booru Image Board browser for iOS. It features many features from basic search all the way to app style customization.</description>
     </item>
     
   </channel>

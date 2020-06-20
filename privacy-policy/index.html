@@ -34,42 +34,25 @@
 
 	    </div>
             <section class="post-content">
-                
-
-<p>Our Privacy Policy is very simple, and we have no interest on walking around with a lot of jargon that nobody will bother to read. Instead, we will simply tell you what Mignori as itself does, and what it does not do.</p>
-
+                <p>Our Privacy Policy is very simple, and we have no interest on walking around with a lot of jargon that nobody will bother to read. Instead, we will simply tell you what Mignori as itself does, and what it does not do.</p>
 <h1 id="http-calls-to-third-party-servers">HTTP Calls to Third-Party Servers</h1>
-
 <p>Please note that the primary purpose of Mignori is to be a Browser for Imageboards running a certain software. As such, you should take all the precautions you would take when using a standard web browser and understand the implications of their usage. Because Mignori is a web browser at its core, it will send, to the servers you have configured within the app, the following information through standard HTTP calls:</p>
-
 <ul>
 <li>Your external IP.</li>
 <li>The User-Agent of your device (this value can be overridden per-server within the app).</li>
 <li>Other headers that are part of the standard HTTP request.</li>
 </ul>
-
 <p>Mignori allows you have a lot of control for each request in a per-server (Imageboard) basis.</p>
-
 <p>Because we have no control over the servers (Imageboards) you choose to add to the app, we have no way of deleting any information about you the imageboard servers may choose to store. Remember that Mignori is a special web browser, and we do not control or regulate the websites you may choose to visit with it. Please contact the administrators of the Imageboards you add to the app if you have any concerns, and remember to read and understand their own privacy policies.</p>
-
 <p>Mignori itself, and as such neither its makers, will not collect this information or process it in any way. Any HTTP request you do to the Imageboard servers you add stays between You and the Imageboard.</p>
-
 <p>Additionally, there is a JSON file hosted on Github that is required for the &ldquo;Shop&rdquo; feature to work. This JSON file contains information about the available In-App Purchases that can be bought for the app. Each time you access the &ldquo;Shop&rdquo; screen of the app, a request is made to Github to retrieve this file. This is a simple GET request. Github may store information about said requests and process them for later use. Please ensure you read and understand you read Github&rsquo;s Privacy Policy before opening the &ldquo;Shop&rdquo; screen of the app.</p>
-
 <p>Please note that not Mignori will not stop you from adding HTTP-only sites. You agree you understand that implications of unencrypted communications with third-party servers.</p>
-
 <h1 id="in-app-content-sourcing">In-App Content Sourcing</h1>
-
 <p>The app generates all the information it needs to work locally. The auto-complete feature uses tags that are found in posts that the app has retrieved at any point in time. When you perform a search in an Imageboard, Mignori retrieves all the posts, and then it retrieves all the tags and stores them in a local database. Tags are not outsourced from a third party in any way.</p>
-
 <h1 id="icloud-usage">iCloud Usage</h1>
-
 <p>Mignori uses Apple’s <a href="https://developer.apple.com/documentation/cloudkit">CloudKit</a> technology to store information in your Apple ID’s iCloud account. The app uses the Private Database only, which means nobody other than the people who have access to your Apple ID can view the information the App stores there for you in your behalf. In a normal scenario, only the owner of the Apple ID has access to this data.</p>
-
 <p>Therefore by using this app, you agree to Apple’s Privacy Policy and you understand how Apple stores and processes your iCloud data. You also understand the app will use your iCloud Storage space. This allow us to implement Sync and Backup features.</p>
-
 <p>Mignori will store the following information in your iCloud Account.</p>
-
 <ul>
 <li>Tags used to autocomplete (all the tags that have been retrieved by the app through your searches).</li>
 <li>Your custom taglists and tags.</li>
@@ -77,49 +60,29 @@
 <li>Posts you have saved within the app.</li>
 <li>Your saved posts hierarchy.</li>
 </ul>
-
 <p>Mignori will not store the following information in your iCloud account:</p>
-
 <ul>
 <li>For servers that support Credentials (user/password pairs, access tokens, etc.), the credentials themselves are not stored in iCloud. This means that if you configure the app again in another device, you will have to edit the server to add your credentials again. Instead, the app will store your credentials safely using Apple’s Keychain API. Put simply, your credentials never leave the device you configured them in.</li>
 <li>Anything else that is not explicitly stated in what we store.</li>
 </ul>
-
 <h1 id="in-app-purchases">In-App Purchases</h1>
-
 <p>Mignori uses In-App Purchases (IAPs) for monetization. We will never see any information about you or your Apple ID unless it’s been aggregated by Apple, but this does not show us your identifiable data willingly. Therefore, you agree and understand Apple’s Privacy Policy when it comes to In-App Purchases.</p>
-
 <p>Some IAP content may be downloaded from a third party server in order to work. Currently, Mignori Stores the theme files in Apple’s servers and downloads them from there when they are purchased. We use Apple’s StoreKit framework exclusively to deal with the IAPs and their files downloads.</p>
-
 <h1 id="telemetry-and-ads">Telemetry and Ads</h1>
-
 <p>Mignori does NOT make use of any telemetry or usage tracking framework at this time. While this hinders our ability of identifying and fixing bugs and crashes, we believe we should not collect any information of whatever you do within the app, and we trust you will contact us directly, either in our Discord channel, via E-mail, or via a social network, of any issues you may have with the app. Telemetry collection is limited to what Apple gives us, and you can toggle whether you want to send this information to Third Party Developers or not. If you enable this iOS feature, we may receive anonymous crash reports – these crashlogs have no information that could be used to identify you.
 In the same vein, Mignori does not serve ads and it does not help ad networks target you in any way. This may change in the future if we need to more information to hunt down bugs and crashes, but it is not the case now.</p>
-
 <h1 id="app-permissions">App Permissions</h1>
-
 <p>At some point, Mignori may request access to write photos to your Photo Gallery (Photos.app). Mignori will only use this permission to write photos to your photo gallery when you choose to and nothing else. Only the photos you explicitly choose to save will be saved there. We will never read your photos for any other purpose.</p>
-
 <p>You can disable this permission anytime through the Setting.app and the app will still work, except you will no longer be able to save images to the Photos.app anymore.</p>
-
 <h1 id="beta-program">Beta Program</h1>
-
 <p>This section only applies to you if you have joined Mignori’s TestFlight program.</p>
-
 <p>We have access to the Apple IDs that are enrolled in the Beta Program any time, but only IDs that have been added manually. We cannot see the Apple IDs of people who joined the program through a TestFlight link. Our Beta Program uses Apple’s TestFlight, so you agree you understand the implications and policies of this tool. We only have access to the e-mails tied to the Apple IDs, and if you provide us, your first name and last name. In general, we avoid storing the First and Last names, but if you filled the old beta program form instead of requesting access in other ways, we have the names you provided us and the e-mail for your Apple ID. This information will never be shared with third parties. You may request to be removed from the Beta Program any time. Removing you from the Beta program will ensure we no longer see your Apple ID e-mail and/or your name, and you will no longer be able to use beta builds of the app. Additionally, we can see the number of crashes you have experienced, the last version of the app you have installed, and the number of times you have launched the app. This information helps us remove inactive testers and keep our testers list small.</p>
-
 <p>The e-mail you provided us may be stored in MailChimp for mailing list purposes, and by signing up to the Beta Program, you agree to give us permission to store your e-mail address there and allow us to send you e-mail. We will only send e-mails with the purpose of the app. We may send you surveys about the experience using the app, we may contact you personally if we think you are having problems, and we may notify you of new releases. We will never use the mailing list to send you newsletters, spam, or anything other that is not related to the Mignori app itself.</p>
-
 <h1 id="living-document">Living Document</h1>
-
 <p>We may edit this document any time. While we cannot notify you when this happens because we do not store any information about you that may help us contact you, we will do our best to communicate the changes in our social network accounts. We will never do any changes that hinder your privacy in any way, but as the app grows, new features may be added and these features may use of your iCloud Account as well.</p>
-
 <h1 id="version-history">Version History</h1>
-
 <p>August 24, 2019 at 6:26PM America/La_Paz: The document has been updated to mention Github, since we no longer store JSON files in our own servers. Expands on the Beta Program section to make it clear we can&rsquo;t see Apple IDs of people who joined the program with a link.</p>
-
 <p>August 3, 2018 at 2:45PM America/La_Paz: First version of this document.</p>
-
 <p>August 31, 2018 at 7:34PM America/La_Paz: Some clarifications regarding data storage. Added section for required App Permissions.</p>
 
             </section>
